@@ -1,0 +1,21 @@
+.btn-content {
+    /* border-left: 1px solid; */
+    border-left: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card {
+    margin: 30px 0px 40px;
+}
+
+.btn-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-content a,
+.btn-content button {
+    width: 100%;
+    display: block;
+    margin: 0 1px 0;
+}

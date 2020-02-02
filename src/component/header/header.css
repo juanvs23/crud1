@@ -1,0 +1,33 @@
+.navbar nav {
+    min-width: 40%;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, .9);
+    min-width: 30%;
+}
+
+.navbar nav a {
+    color: black;
+    font-weight: 600;
+    font-size: 19px;
+    text-decoration: none !important;
+}
+
+.navbar nav a:hover,
+.navbar nav a.activo {
+    border-bottom: 3px solid;
+    padding-bottom: 21px;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, .9);
+    min-width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-light .navbar-brand h1 {
+    font-size: 2rem;
+    margin: 0 15px 0;
+}
